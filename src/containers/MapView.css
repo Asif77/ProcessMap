@@ -1,0 +1,65 @@
+.mapview {
+  width: "100%";
+  display: "flex";
+  justify-content: "space-between";
+}
+
+path.link {
+  fill: none;
+  /* stroke: #60b1fc; */
+  stroke: #8d9aad;
+  stroke-width: 1px;
+  cursor: default;
+}
+
+path.link.selected {
+  stroke-dasharray: 10, 1;
+}
+
+path.link.dragline {
+  pointer-events: none;
+}
+
+path.link.hidden {
+  stroke-width: 0;
+}
+
+/* This styles the title of the tooltip */
+#tooltip .title {
+  font-size: 1em;
+  font-weight: bold;
+  color: #60b1fc;
+  margin: 0px 5px 2px;
+}
+
+/* This styles the body of the tooltip */
+#tooltip .description {
+  font-size: 0.8em;
+  color: white;
+  margin: 2px 5px 5px;
+}
+
+#tooltip .line {
+  font-size: 0.8em;
+  color: white;
+  background-color: white;
+  margin: 0px 2px 2px 2px;
+}
+
+#tooltip {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #60b1fc;
+  margin: 0em 0;
+  padding: 0;
+}

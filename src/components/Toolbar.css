@@ -1,0 +1,116 @@
+.header {
+  background: #34589c;
+  -webkit-box-shadow: 1px 1px 6px #cacaca;
+  box-shadow: 1px 1px 6px #cacaca;
+  /*margin-bottom: 10px;*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 6px;
+  line-height: normal;
+}
+a.logo.white {
+  color: white;
+}
+
+a.logo.white:link {
+  color: white;
+}
+
+a.logo.white:visited {
+  color: white;
+}
+a.logo.white:hover {
+  color: white;
+}
+a.logo.white:focus {
+  color: white;
+}
+a.logo.white:active {
+  color: white;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 26px;
+  padding: 0 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-group:mat-icon {
+  color: white;
+}
+
+.toolbarstyle {
+  border-image: none;
+  margin-right: 3px;
+  margin-top: 6px;
+  position: relative;
+  cursor: auto;
+  background-color: blue;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: rgb(19, 62, 141);
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 0%;
+  box-shadow: 0px 0px 0px 0rem;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0px 0px 0px 0rem;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active,
+.btn:hover {
+  background-color: rgb(19, 62, 141);
+  border-style: inset;
+  color: white;
+}
+
+.navbar {
+  background-color: #34589c;
+  padding: 0px 0px;
+}
+
+.mat-button-toggle-label-content {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  line-height: 36px;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.mat-button-toggle-group,
+.mat-button-toggle-standalone {
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  border-radius: 2px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.mat-button-toggle-checked {
+  background-color: #e0e0e0;
+  color: rgba(0, 0, 0, 0.54);
+}

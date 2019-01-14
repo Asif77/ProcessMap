@@ -1,0 +1,13 @@
+.close {
+  right: 15px;
+  position: absolute;
+  background: #e1e1e1;
+  color: #555;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+  font-size: 10px;
+  cursor: pointer;
+}
